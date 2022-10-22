@@ -26,17 +26,3 @@
 .percentage {
   font-size: 26px;
 }
-
-/* 
- <section className={css.statistics}>
-    {title && (
-        <h2 className={css.title}>{title}</h2>
-      )}
-    <ul>
-        {stats.map(user=>(
-        <li key={user.id} className={css.item} >
-            <span className={css.item}>{user.label}</span>
-            <span className={css.percentage}>{user.percentage}</span>
-  </li>))}
-    </ul>
-</section>)}; */
