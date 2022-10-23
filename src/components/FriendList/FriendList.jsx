@@ -4,7 +4,7 @@ import css from './FriendList.module.css'
 export const FriendList = ({friends}) => {
     return (
         <ul className={css.friendList}>
-            {friends.map(({id,isOnline, avatar, name} )=> (
+            {friends.map(({id,isOnline, avatar, name})=> (
                 <li key={id} className={css.item}>
                     {isOnline === true ? (
                             <span className={css.statusTrue}></span>

@@ -1,0 +1,23 @@
+.transactionHistory {
+  margin-bottom: 50px;
+
+  box-shadow: 0px 0px 4px 4px rgba(222, 222, 222, 0.81);
+}
+.head {
+  font-size: 18px;
+  background-color: rgb(21, 217, 231);
+  color: white;
+}
+.headCell {
+  padding: 10px 70px;
+}
+
+.item:nth-child(even) {
+  background-color: rgba(147, 205, 207, 0.3);
+}
+.itemCell {
+  border: 1px solid rgb(225, 223, 223);
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 50px;
+}
